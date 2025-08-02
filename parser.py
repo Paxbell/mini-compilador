@@ -152,8 +152,8 @@ class Parser:
 
     def factor(self):
         tok = self.peek()
-        if tok.type=='NUMBER':
-            self.eat('NUMBER')
+        if tok.type=='NUMERO':
+            self.eat('NUMERO')
             return Num(int(tok.value), 'int')
         if tok.type=='FLOAT':
             self.eat('FLOAT')

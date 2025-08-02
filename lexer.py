@@ -7,7 +7,7 @@ Token = namedtuple('Token', ['type', 'value'])
 
 TOKEN_SPEC = [
     ('FLOAT',    r'\d+\.\d+'),          # números con punto decimal
-    ('NUMBER',   r'\d+'),               # números enteros
+    ('NUMERO',   r'\d+'),               # números enteros
     ('ID',       r'[A-Za-z_]\w*'),      # identificadores y palabras clave
     ('OP',       r'[+\-*/=<>]'),        # operadores + - / * = < >
     ('DOT',      r'\.'),                # punto para System.out .

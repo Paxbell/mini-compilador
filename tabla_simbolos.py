@@ -2,7 +2,7 @@
 
 class SymbolTable:
     def __init__(self):
-        self.table = {}  # name -> tipo (int o float)
+        self.table = {}  # name -> tipo (int o float')
 
     def declare(self, name, typ):
         if name in self.table:

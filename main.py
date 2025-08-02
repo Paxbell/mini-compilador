@@ -9,7 +9,7 @@ import io
 import contextlib
 
 def main():
-    print("=== Mini-Compilador Java→Python ===\n")
+    print("=== Mini-Compilador Java a Python Robert Martinez===\n")
     print("Introduce tu código línea a línea. Escribe 'END' para terminar:\n")
     lines = []
     while True:
@@ -49,3 +49,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    input("\nPresiona Enter para salir...")
+    
+
+
