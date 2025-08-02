@@ -57,7 +57,6 @@ class SemanticAnalyzer:
         self.visit(node.body)
 
     def visit_For(self, node):
-        # variable de bucle se declara implícitamente como int
         if node.var not in self.symtab.table:
             self.symtab.declare(node.var, 'int')
         start_t = self.visit(node.start)

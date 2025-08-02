@@ -55,7 +55,7 @@ class IntermediateGenerator:
         self.code.append(('print', val))
 
     def visit_While(self, node):
-        # muy simplificado, sin etiquetas reales
+        # por temas de simplicidad, sin etiquetas reales
         self.visit(node.cond)
         self.visit(node.body)
 

@@ -62,7 +62,7 @@ class Parser:
         raise SyntaxError(f"[Parser Error] Sentencia no reconocida: {tok}")
 
     def declaration(self):
-        tipo = self.eat('ID').value       # 'int' o 'float'
+        tipo = self.eat('ID').value       # int o float
         name = self.eat('ID').value
         expr = None
         if self.peek().type=='OP' and self.peek().value=='=':

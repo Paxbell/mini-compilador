@@ -1,4 +1,4 @@
-# 6- generador de codigo legible
+# 6- generador de código de alto nivel legible
 
 from parser import *
 
